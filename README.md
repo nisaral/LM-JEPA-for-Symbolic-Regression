@@ -1,5 +1,9 @@
 # LM-JEPA for Symbolic Regression (GSoC 2026 test task, ML4SCI / SYMBA)
 
+[![Stars](https://img.shields.io/github/stars/nisaral/LM-JEPA-for-Symbolic-Regression?style=flat)](https://github.com/nisaral/LM-JEPA-for-Symbolic-Regression/stargazers) [![Last commit](https://img.shields.io/github/last-commit/nisaral/LM-JEPA-for-Symbolic-Regression)](https://github.com/nisaral/LM-JEPA-for-Symbolic-Regression/commits/main) [![Issues](https://img.shields.io/github/issues/nisaral/LM-JEPA-for-Symbolic-Regression)](https://github.com/nisaral/LM-JEPA-for-Symbolic-Regression/issues) ![PyTorch](https://img.shields.io/badge/PyTorch-notebook-EE4C2C) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nisaral/LM-JEPA-for-Symbolic-Regression/blob/main/LM_JEPA_Symbolic_Regression_GSoC2026.ipynb)
+
+**30-second quickstart:** click *Open in Colab* above and choose *Runtime → Run all* (dependencies install inside the notebook).
+
 A single notebook, [`LM_JEPA_Symbolic_Regression_GSoC2026.ipynb`](LM_JEPA_Symbolic_Regression_GSoC2026.ipynb),
 written for the ML4SCI SYMBA GSoC 2026 evaluation tasks:
 
@@ -48,6 +52,10 @@ the model is small.
 - TODO(Keyush): ablation λ_JEPA = 0 vs > 0 over ≥ 3 seeds, with symbolic-equivalence accuracy (SymPy `simplify(a - b) == 0`).
 - Larger synthetic pre-training set; EMA target encoder; conditioning on numeric data points.
 - Compare against a standard symbolic-regression baseline (e.g. PySR).
+
+## Contributing / Help wanted
+
+Contributions are welcome, including small ones. The multi-seed ablation and the PySR baseline under Next steps are well-scoped starter tasks. Look for [good first issue](https://github.com/nisaral/LM-JEPA-for-Symbolic-Regression/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) and [help wanted](https://github.com/nisaral/LM-JEPA-for-Symbolic-Regression/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) issues, read [CONTRIBUTING.md](CONTRIBUTING.md), and open an issue if you want to discuss an idea first.
 
 ## References
 
